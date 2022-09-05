@@ -2,11 +2,28 @@ body {
     display: grid;
     justify-content: center;
 }
+.equation {
+    display: grid;
+    background: aliceblue;
+    border-radius: 21px;
+    height: 20px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    margin-top: 5px;
+    margin-right: 5px;
+    box-shadow: 0 0 20px lime;
+    border: 1px solid black;
+    font-size: 10px;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+}
 .main {
     margin-top: 200px;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    border: 1px solid black;
+    border: 1px solid lime;
     height: 500px;
     width: 375px;
     border-radius: 15px;
@@ -31,10 +48,11 @@ body {
     border-radius: 21px;
     background-color: aliceblue;
     box-shadow: 0 0 15px lime;
-    font-size: 18px;
+    font-size: 40px;
+    height: 60px;
 }
 button {
-    height: 80px;
+    height: 60px;
     margin-top: 0;
     width: 80px ;
     box-shadow: 0 0 10px lime;
@@ -45,4 +63,14 @@ button {
 button:hover {
     background-color: lime;
     box-shadow: 0 0 20px lime;
+}
+#clear {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: center;
+}
+.clear {
+    width: 300px;
+    height: 30px;
 }
