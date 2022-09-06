@@ -92,7 +92,7 @@ plus.addEventListener('click', ()=> {
     var2 = "+";
     mini.textContent = var1 + var2;
     screen.textContent = "";
-    operate(var1,var2);
+    return var1,var2;
 });
 
 minus.addEventListener('click', ()=> {
@@ -103,7 +103,7 @@ minus.addEventListener('click', ()=> {
     var2 = "-";
     mini.textContent = var1 + var2;
     screen.textContent = "";
-    operate(var1,var2);
+    return var1,var2;
 });
 
 multiply.addEventListener('click', ()=> {
@@ -114,7 +114,7 @@ multiply.addEventListener('click', ()=> {
     var2 = "*";
     mini.textContent = var1 + var2;
     screen.textContent = "";
-    operate(var1,var2);
+    return var1,var2;
 });
 
 divide.addEventListener('click', ()=> {
@@ -125,7 +125,7 @@ divide.addEventListener('click', ()=> {
     var2 = "/";
     mini.textContent = var1 + var2;
     screen.textContent = "";
-    operate(var1,var2);
+    return var1,var2;
 });
 let equals = document.querySelector('.equals');
 equals.addEventListener('click', () => {
